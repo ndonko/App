@@ -5,9 +5,9 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', '1.3.2', :group => :develolpement
 
-
+gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -21,11 +21,11 @@ group :assets do
 end
 
 group :developpement do 
-  gem 'rspec-rails', '2.5.0'
+  gem 'rspec-rails'
 end
 
 group :test do 
-  gem 'rspec', '2.5.0'
+  gem 'rspec'
   gem 'webrat','0.7.1'
 end
 

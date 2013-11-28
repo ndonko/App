@@ -2,6 +2,16 @@ App::Application.routes.draw do
   get "pages/home"
 
   get "pages/contact"
+  
+  get "pages/mesFotos"
+  
+  get "pages/evenement"
+  
+  get "pages/mesAmis"
+  
+  get "pages/monGroupe"
+  
+  get "pages/maPage"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
